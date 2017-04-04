@@ -176,8 +176,10 @@ class GiphyImage(AttrDict):
                    'fixed_height',
                    'fixed_width_downsampled',
                    'fixed_width_still',
+                   'fixed_width_small',
                    'fixed_height_downsampled',
                    'fixed_height_still',
+                   'fixed_height_small'
                    'downsized')
 
         for key in process:
